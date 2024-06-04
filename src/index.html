@@ -3,48 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Manjinder Singh Grewal - Resume</title>
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">My Resume</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <img src="./media/profile.jpeg" id="profilePic" alt="Manjinder Singh Grewal" class="rounded-circle" style="background-color: white;">
+        <a class="navbar-brand" </a>
+        <div class="ml-auto d-flex align-items-center">
+            <h1 class="display-4 mb-0">Manjinder Singh Grewal</h1>
+            <p class="ml-3 mb-0">Surrey, V3S</p>
+            <div class="ml-3">
+                <a href="https://github.com/Manjindergit" class="text-white mr-3">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://linkedin.com/in/manjinder-grewal-34664015a/" class="text-white">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+            </div>
+        </div>
     </nav>
-    <div class="container mt-5">
+    <div class="container mt-5" id="mainContainer">
         <div class="row">
             <div class="col-md-4">
-                <img src="profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+                <!-- Left empty for alignment purposes -->
             </div>
             <div class="col-md-8">
-                <h1>John Doe</h1>
-                <p><strong>Email:</strong> john.doe@example.com</p>
-                <p><strong>Phone:</strong> (123) 456-7890</p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></p>
-                <p><strong>GitHub:</strong> <a href="https://github.com/johndoe">github.com/johndoe</a></p>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-12">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-12">
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-12">
-                <h2>Portfolio</h2>
-                <p>Links to projects or portfolios.</p>
+                <div class="sidebar">
+                    <div class="sidebar-item">
+                        <h2>Skills</h2>
+                        <div class="content">
+                            <p><strong>Language:</strong> JS, Python, Java, SQL</p>
+                            <p><strong>Framework:</strong> React, Flask, NumPy, Pandas</p>
+                            <p><strong>Database:</strong> MySQL, Firebase, MongoDB</p>
+                            <p><strong>Networking:</strong> TCP/IP Protocols, IDS, VPN, SSL, DNS</p>
+                            <p><strong>OS:</strong> Linux, Unix, Windows</p>
+                            <p><strong>Other:</strong> Vim, Git, VMware, Junit Testing</p>
+                        </div>
+                    </div>
+                    <div class="sidebar-item">
+                        <h2>Work Experience</h2>
+                        <div class="content">
+                            <h3>IT Support Specialist</h3>
+                            <p><strong>FedEx Ground, Delta, B.C.</strong> - September 2022 – November 2023</p>
+                            <ul>
+                                <li>Assisted in managing Group policies for access control and user logins in internal systems.</li>
+                                <li>Installed, maintained, upgraded, monitored, tested, and repaired equipment and components to keep in good working condition ensuring no slowdown in production.</li>
+                                <li>Maintained and logged documentation of repairs and upgrades for record keeping purposes and future references for similar issues in multiple platforms and devices.</li>
+                            </ul>
+                            <h3>Team Lead</h3>
+                            <p><strong>Walmart, Delta, B.C.</strong> - October 2018 – July 2022</p>
+                            <ul>
+                                <li>Led team meetings to update on progress, address concerns, and share new policies, ensuring peak team performance. Conducted quality checks for standards.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar-item">
+                        <h2>Education</h2>
+                        <div class="content">
+                            <h3>Kwantlen Polytechnic University</h3>
+                            <p><strong>Surrey, BC</strong> - January 2022 – Present</p>
+                            <p>Bachelor of Information Technology</p
+                            <h3>Douglas College</h3>
+                            <p><strong>New Westminster, BC</strong> - August 2018</p>
+                            <p>Computing Studies and Information System</p>
+                        </div>
+                    </div>
+                    <div class="sidebar-item">
+                        <h2>Projects</h2>
+                        <div class="content">
+                            <p>Links to projects or portfolios.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <footer class="bg-black text-white text-center py-3">
+        <p><strong>Phone:</strong> 778-723-0004 | <strong>Email:</strong> manjinder.grewal4@student.kpu.ca</p>
+    </footer>
+    
 </body>
 </html>

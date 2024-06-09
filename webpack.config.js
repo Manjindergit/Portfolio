@@ -39,6 +39,10 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: ["file-loader"],
       },
+        {
+            test: /\.(pdf)$/,
+            use: ["file-loader"],
+        },
     ],
   },
   plugins: [

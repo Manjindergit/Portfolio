@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const mainContainer = document.getElementById('mainContainer');
     mainContainer.style.backgroundImage = `url(${background})`;
-    //background iamge should cover entire mainContainer
     mainContainer.style.backgroundSize = 'cover';
 }
 );

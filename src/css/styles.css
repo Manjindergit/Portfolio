@@ -34,19 +34,17 @@ h3 {
 
 #headerButtonGroup {
     display: flex;
-    align-items: center;
     flex-wrap: wrap; /* Allow items to wrap to next line if needed */
 }
+
+
+
 
 .btn-custom {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-right: 10px;
 }
+
 
 a {
     color: #4e5d6d;
